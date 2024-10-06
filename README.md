@@ -17,8 +17,11 @@ This is an example of training UDA models using our ProAC loss:
 ```
 python train.py
 ```
+Tips
 ---
-We use [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) for training the fully-supervised models.
+- We use [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) for fully-supervised model training.
+
+- It's suggested to directly use the [ProAC loss](https://github.com/renqinghuaha/ProAC_TCSVT2024/blob/main/loss.py) for training a segmentation model.
 
 Citation
 ---
