@@ -7,7 +7,7 @@ Pixel-wise contrastive learning recently offers a new training paradigm in seman
 
 Usage
 ---
-This is an example of training UDA models using our ProAC loss.
+This is an example of training UDA models using our ProAC loss:
 
 - Prepare Datasets: [GTA5](https://download.visinf.tu-darmstadt.de/data/from_games/), [SYNTHIA](https://synthia-dataset.net/), [Cityscapes](https://www.cityscapes-dataset.com/), [ADE20K](https://groups.csail.mit.edu/vision/datasets/ADE20K/).
 
