@@ -11,13 +11,14 @@ This is an example of training UDA models using our ProAC loss.
 
 - Prepare Datasets: [GTA5](https://download.visinf.tu-darmstadt.de/data/from_games/), [SYNTHIA](https://synthia-dataset.net/), [Cityscapes](https://www.cityscapes-dataset.com/), [ADE20K](https://groups.csail.mit.edu/vision/datasets/ADE20K/).
 
-- Download the pretrained models, e.g., [FADA](https://github.com/JDAI-CV/FADA), [FADA](https://github.com/YanchaoYang/FDA), [ProDA](https://github.com/microsoft/ProDA), and generate pseudo labels.
+- Download the pretrained models, e.g., [FADA](https://github.com/JDAI-CV/FADA), [FDA](https://github.com/YanchaoYang/FDA), [ProDA](https://github.com/microsoft/ProDA), and generate pseudo labels.
 
 - Train the UDA model using our ProAC loss
 ```
 python train.py
 ```
 
+---
 We use [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) for training the fully-supervised models.
 
 Citation
